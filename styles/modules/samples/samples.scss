@@ -1,0 +1,6 @@
+.samples {
+  @include flex-ai-center;
+  justify-content: space-between;
+  background-color: apply-color("subsub");
+  padding: 60px 50px 60px 150px;
+}

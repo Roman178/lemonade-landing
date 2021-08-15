@@ -1,0 +1,9 @@
+.card {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  min-height: 525px;
+  background-color: apply-color("main");
+  padding: 90px 100px;
+  box-sizing: border-box;
+}

@@ -4,6 +4,11 @@
   list-style: none;
 }
 
+@mixin reset-btn {
+  @include reset-list;
+  border: none;
+}
+
 @mixin reset-text-el {
   margin: 0;
 }
@@ -28,11 +33,28 @@
   align-items: center;
 }
 
+@mixin flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
 @mixin font-settings($weight, $size, $lh, $color) {
   font-family: "Inter", Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: $weight;
   font-size: $size;
   line-height: $lh;
-  color: apply-color($color);
+  @if $color ==
+    "main" or
+    $color ==
+    "sub" or
+    $color ==
+    "subsub" or
+    $color ==
+    "elements"
+  {
+    color: apply-color($color);
+  } @else {
+    color: $color;
+  }
 }

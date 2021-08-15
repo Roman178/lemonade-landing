@@ -1,0 +1,8 @@
+.how-it-works {
+  @include flex-ai-center;
+  flex-direction: column;
+  justify-content: space-between;
+  box-sizing: border-box;
+  min-height: 1455px;
+  padding: 120px 50px 50px;
+}

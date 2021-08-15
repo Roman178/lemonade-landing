@@ -1,0 +1,4 @@
+.footer__logo {
+  @include font-settings(700, 30px, 30px, #ffa72b);
+  text-transform: uppercase;
+}

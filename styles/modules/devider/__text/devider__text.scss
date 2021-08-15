@@ -1,0 +1,6 @@
+.devider__text {
+  @include reset-text-el;
+  @include font-settings(700, 30px, 36px, #016450);
+  text-transform: uppercase;
+  white-space: nowrap;
+}

@@ -1,0 +1,4 @@
+.title {
+  @include font-settings(500, 60px, 100%, #1e3264);
+  @include reset-text-el;
+}

@@ -18,5 +18,48 @@
 @import "./modules/intro/__img-taste/intro__img-taste.scss";
 
 @import "./modules/btn/btn.scss";
+@import "./modules/btn/_type/btn_type_form.scss";
 
 @import "./modules/devider/devider.scss";
+@import "./modules/devider/__text/devider__text.scss";
+
+@import "./modules/title/title.scss";
+@import "./modules/title/_tigth/title_tight.scss";
+
+@import "./modules/how-it-works/how-it-works.scss";
+@import "./modules/how-it-works/__wrapper/how-it-works__wrapper.scss";
+
+@import "./modules/card/card.scss";
+@import "./modules/card/_type/card_type_sub.scss";
+@import "./modules/card/__title/card__title.scss";
+@import "./modules/card/__subtitle/card__subtitle.scss";
+@import "./modules/card/__box/card__box.scss";
+@import "./modules/card/__box/_type/card__box_type_big.scss";
+@import "./modules/card/__box/_type/card__box_type_middle.scss";
+@import "./modules/card/__text-box/card__text-box.scss";
+@import "./modules/card/__circle/card__circle.scss";
+@import "./modules/card/__circle/_small/card__circle_small.scss";
+@import "./modules/card/__list/card__list.scss";
+@import "./modules/card/__item/card__item.scss";
+
+@import "./modules/natural/natural.scss";
+@import "./modules/natural/__box/natural__box.scss";
+@import "./modules/natural/__img-taste/natural__img-taste.scss";
+
+@import "./modules/samples/samples.scss";
+@import "./modules/samples/__text-box/samples__text-box.scss";
+@import "./modules/samples/__subtitle/samples__subtitle.scss";
+
+@import "./modules/form/form.scss";
+@import "./modules/form/__title/form__title.scss";
+@import "./modules/form/__name-box/form__name-box.scss";
+@import "./modules/form/__input-box/form__input-box.scss";
+@import "./modules/form/__input-box/_type/form__input-box_type_long.scss";
+@import "./modules/form/__label/form__label.scss";
+@import "./modules/form/__input/form__input.scss";
+
+@import "./modules/footer/footer.scss";
+@import "./modules/footer/__circle/footer__circle.scss";
+@import "./modules/footer/__circle/_type/footer__circle_type_medium.scss";
+@import "./modules/footer/__circle/_type/footer__circle_type_small.scss";
+@import "./modules/footer/__logo/footer__logo.scss";

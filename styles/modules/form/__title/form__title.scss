@@ -1,0 +1,5 @@
+.form__title {
+  @include reset-text-el;
+  @include font-settings(500, 32px, 125%, #fff);
+  margin-bottom: 50px;
+}

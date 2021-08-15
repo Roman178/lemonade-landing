@@ -1,0 +1,7 @@
+.card__list {
+  @include reset-list;
+  @include flex-column;
+  justify-content: space-between;
+  min-height: 400px;
+  width: 255px;
+}

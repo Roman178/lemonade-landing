@@ -1,6 +1,6 @@
-.intro__box {
+.form__input-box {
   @include flex-column;
-  min-height: 322px;
-  position: relative;
   justify-content: space-between;
+  width: 310px;
+  min-height: 77px;
 }

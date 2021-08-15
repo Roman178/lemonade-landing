@@ -1,0 +1,10 @@
+.form__input {
+  @include font-settings(600, 24px, 115%, #fff);
+  background-color: inherit;
+  border: none;
+  border-bottom: 2px solid #fff;
+}
+
+.form__input:focus {
+  outline: none;
+}

@@ -1,0 +1,5 @@
+.samples__subtitle {
+  @include reset-text-el;
+  @include font-settings(400, 20px, 145%, #1e3264);
+  margin-top: 48px;
+}

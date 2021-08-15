@@ -1,0 +1,6 @@
+.card__item {
+  @include font-settings(700, 32px, 157%, #fff);
+  box-sizing: border-box;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  cursor: pointer;
+}
