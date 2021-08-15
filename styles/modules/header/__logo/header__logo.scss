@@ -1,0 +1,5 @@
+.header__logo {
+  @include reset-text-el;
+  @include font-settings(700, 30px, 100%, "elements");
+  text-transform: uppercase;
+}

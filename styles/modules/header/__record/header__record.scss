@@ -1,0 +1,11 @@
+.header__record {
+  position: absolute;
+  right: -140px;
+  top: -140px;
+  background-color: apply-color("sub");
+  width: 565px;
+  min-height: 565px;
+  border-radius: 50%;
+  background-image: url("../images/record.png");
+  @include center-bckgr-img;
+}

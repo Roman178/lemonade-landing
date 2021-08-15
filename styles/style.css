@@ -1,0 +1,128 @@
+@import url(/home/roman/Documents/development/yandex_praktikum/main/lemonade-landing/vendor/normalize.css);
+@import url(/home/roman/Documents/development/yandex_praktikum/main/lemonade-landing/vendor/fonts/fonts.css);
+.page {
+  overflow-x: hidden;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #9960f6;
+  min-height: 110px;
+  padding-left: 50px;
+}
+
+.header__logo {
+  margin: 0;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 100%;
+  color: #ffdb00;
+  text-transform: uppercase;
+}
+
+.header__record {
+  position: absolute;
+  right: -140px;
+  top: -140px;
+  background-color: #8556f8;
+  width: 565px;
+  min-height: 565px;
+  border-radius: 50%;
+  background-image: url("../images/record.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.intro__wrapper {
+  background-color: #9960f6;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0 50px 50px;
+}
+
+.intro__box {
+  min-height: 322px;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.intro__box_type_small {
+  width: 457px;
+}
+
+.intro__title {
+  margin: 0;
+  font-family: "Inter";
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 48px;
+  color: white;
+}
+
+.intro__taste {
+  position: absolute;
+  right: -40px;
+  bottom: -50px;
+}
+
+.intro__img-taste {
+  display: block;
+}
+
+.btn {
+  width: 163px;
+  height: 55px;
+  background-color: #ffdb00;
+  margin: 0;
+  padding: 0;
+  border: none;
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 31px;
+  color: #1e3264;
+}
+
+.devider {
+  min-height: 76px;
+  background-color: #cef564;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #016450;
+  white-space: nowrap;
+}
+/*# sourceMappingURL=style.css.map */

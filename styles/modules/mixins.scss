@@ -1,0 +1,38 @@
+@mixin reset-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+@mixin reset-text-el {
+  margin: 0;
+}
+
+@mixin center-bckgr-img {
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+@mixin flex-jc-center {
+  display: flex;
+  justify-content: center;
+}
+
+@mixin flex-ai-center {
+  display: flex;
+  align-items: center;
+}
+
+@mixin flex-all-center {
+  @include flex-jc-center;
+  align-items: center;
+}
+
+@mixin font-settings($weight, $size, $lh, $color) {
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: $weight;
+  font-size: $size;
+  line-height: $lh;
+  color: apply-color($color);
+}
