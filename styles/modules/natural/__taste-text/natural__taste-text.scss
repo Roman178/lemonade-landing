@@ -1,0 +1,10 @@
+.natural__taste-text {
+  @include reset-text-el;
+  @include font-settings(600, 18px, 21px, #016450);
+  text-transform: uppercase;
+  position: absolute;
+  transform: rotate(-18.99deg);
+  z-index: 1;
+  top: 118px;
+  left: -42px;
+}

@@ -1,4 +1,8 @@
 .how-it-works__wrapper {
   @include flex-column;
   width: 100%;
+
+  @media screen and (max-width: 1150px) {
+    margin-top: 120px;
+  }
 }

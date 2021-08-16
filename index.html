@@ -4,7 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- <link rel="stylesheet" href="./vendor/normalize.css" /> -->
+    <link rel="stylesheet" href="./vendor/normalize.css" />
+    <link rel="stylesheet" href="./vendor/fonts/fonts.css" />
     <link rel="stylesheet" href="./styles/style.css" />
     <title>Lemonade</title>
   </head>
@@ -22,6 +23,7 @@
             <div class="intro__box">
               <img src="./images/bottles.jpg" alt="Bottles" />
               <div class="intro__taste">
+                <p class="intro__taste-text">ананас</p>
                 <img
                   class="intro__img-taste"
                   src="./images/taste-pineapple.png"
@@ -52,7 +54,7 @@
                   лимонады на 100% натуральны!
                 </p>
               </div>
-              <img src="./images/tastes.jpg" alt="Tastes" />
+              <img class="card__img" src="./images/tastes.jpg" alt="Tastes" />
             </div>
             <div class="card card_type_sub">
               <div class="card__box card__box_type_big">
@@ -63,25 +65,29 @@
                     компонентов.
                   </p>
                 </div>
-                <button class="btn">Попробовать</button>
+                <button class="btn btn_type_disappearing">Попробовать</button>
               </div>
-              <div class="card__box card__box_type_middle">
-                <div class="card__circle"></div>
-                <div class="card__circle card__circle_small"></div>
+              <div class="card__wrapper">
+                <div class="card__box card__box_type_middle">
+                  <div class="card__circle"></div>
+                  <div class="card__circle card__circle_small"></div>
+                </div>
+                <ul class="card__list">
+                  <li class="card__item">Сок</li>
+                  <li class="card__item">Пюре</li>
+                  <li class="card__item">Вода</li>
+                  <li class="card__item">Пузыри</li>
+                  <li class="card__item">Витамины</li>
+                </ul>
               </div>
-              <ul class="card__list">
-                <li class="card__item">Сок</li>
-                <li class="card__item">Пюре</li>
-                <li class="card__item">Вода</li>
-                <li class="card__item">Пузыри</li>
-                <li class="card__item">Витамины</li>
-              </ul>
+              <button class="btn btn_type_appearing">Попробовать</button>
             </div>
           </div>
         </section>
         <section class="natural">
           <h2 class="title title_tight">SODA — натуральные лимонады!</h2>
           <div class="natural__box">
+            <p class="natural__taste-text">манго</p>
             <img
               class="natural__img-taste"
               src="./images/taste-mango.png"

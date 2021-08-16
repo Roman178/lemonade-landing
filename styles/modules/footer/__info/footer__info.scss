@@ -1,0 +1,5 @@
+.footer__info {
+  @include flex-column;
+  justify-content: space-between;
+  margin-left: 247px;
+}

@@ -1,0 +1,4 @@
+.footer__copyright {
+  @include reset-text-el;
+  @include font-settings(400, 14px, 107%, #fff);
+}

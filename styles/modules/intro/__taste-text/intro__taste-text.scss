@@ -1,0 +1,9 @@
+.intro__taste-text {
+  @include font-settings(600, 12px, 14px, #016450);
+  @include reset-text-el;
+  text-transform: uppercase;
+  position: absolute;
+  transform: rotate(10.05deg);
+  top: 66px;
+  left: 47px;
+}

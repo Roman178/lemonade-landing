@@ -1,0 +1,5 @@
+.intro {
+  @include flex-column;
+  align-items: center;
+  background-color: apply-color("main");
+}

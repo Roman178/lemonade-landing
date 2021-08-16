@@ -1,0 +1,6 @@
+.btn_type_appearing {
+  display: none;
+  @media screen and (max-width: 1150px) {
+    display: block;
+  }
+}

@@ -6,4 +6,9 @@
   background-color: apply-color("main");
   padding: 90px 100px;
   box-sizing: border-box;
+
+  @media screen and (max-width: 1150px) {
+    flex-direction: column;
+    padding: 60px;
+  }
 }

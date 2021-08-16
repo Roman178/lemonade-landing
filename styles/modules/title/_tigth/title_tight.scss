@@ -1,3 +1,7 @@
 .title_tight {
   width: 460px;
+
+  @media screen and (max-width: 1150px) {
+    text-align: center;
+  }
 }

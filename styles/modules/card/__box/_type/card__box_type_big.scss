@@ -1,4 +1,8 @@
 .card__box_type_big {
   min-height: 400px;
   justify-content: space-between;
+
+  @media screen and (max-width: 1150px) {
+    min-height: auto;
+  }
 }

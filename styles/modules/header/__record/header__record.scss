@@ -8,4 +8,12 @@
   border-radius: 50%;
   background-image: url("../images/record.png");
   @include center-bckgr-img;
+
+  @media screen and (max-width: 1400px) {
+    background-color: inherit;
+    position: static;
+    width: 128px;
+    min-height: 128px;
+    background-size: contain;
+  }
 }

@@ -1,0 +1,11 @@
+.card__wrapper {
+  display: flex;
+  justify-content: space-between;
+  max-width: 596px;
+  width: 100%;
+
+  @media screen and (max-width: 1150px) {
+    flex-direction: row-reverse;
+    margin: 100px 0;
+  }
+}
