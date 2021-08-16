@@ -1,0 +1,10 @@
+.footer__box {
+  @media screen and (max-width: 720px) {
+    @include flex-column;
+    align-items: center;
+
+    &:last-of-type {
+      margin-top: 50px;
+    }
+  }
+}

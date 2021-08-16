@@ -1,0 +1,19 @@
+.card {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  min-height: 525px;
+  background-color: apply-color("main");
+  padding: 90px 100px;
+  box-sizing: border-box;
+
+  @media screen and (max-width: 1150px) {
+    flex-direction: column;
+    padding: 60px;
+  }
+
+  @media screen and (max-width: 720px) {
+    padding: 20px;
+    min-height: auto;
+  }
+}

@@ -1,0 +1,8 @@
+.card_type_sub {
+  background-color: apply-color("sub");
+  align-items: center;
+
+  @media screen and (max-width: 1150px) {
+    align-items: flex-start;
+  }
+}

@@ -1,0 +1,18 @@
+.natural__box {
+  position: relative;
+  width: 430px;
+  min-height: 510px;
+  background-repeat: no-repeat;
+  background-image: url("../images/bottle.jpg");
+
+  @media screen and (max-width: 1150px) {
+    margin-top: 120px;
+  }
+
+  @media screen and (max-width: 720px) {
+    margin-top: 50px;
+    width: 280px;
+    min-height: 339px;
+    background-size: cover;
+  }
+}

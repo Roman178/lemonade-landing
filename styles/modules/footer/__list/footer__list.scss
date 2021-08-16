@@ -1,0 +1,8 @@
+.footer__list {
+  @include reset-list;
+
+  @media screen and (max-width: 720px) {
+    @include flex-column;
+    align-items: center;
+  }
+}

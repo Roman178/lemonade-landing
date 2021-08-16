@@ -1,0 +1,9 @@
+.card__subtitle {
+  @include reset-text-el;
+  @include font-settings(500, 18px, 172%, #fff);
+  max-width: 386px;
+
+  @media screen and (max-width: 720px) {
+    @include font-settings(400, 14px, 136%, #fff);
+  }
+}

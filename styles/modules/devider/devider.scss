@@ -1,0 +1,9 @@
+.devider {
+  @include flex-ai-center;
+  background-color: apply-color("subsub");
+  min-height: 76px;
+
+  @media screen and (max-width: 720px) {
+    min-height: 64px;
+  }
+}

@@ -1,0 +1,15 @@
+.intro__box_type_small {
+  width: 457px;
+
+  @media screen and (max-width: 1400px) {
+    flex-direction: row;
+    min-height: auto;
+    width: 100%;
+    max-width: 668px;
+    margin-top: 50px;
+  }
+
+  @media screen and (max-width: 720px) {
+    flex-direction: column;
+  }
+}

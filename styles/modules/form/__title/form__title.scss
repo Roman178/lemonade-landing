@@ -1,0 +1,9 @@
+.form__title {
+  @include reset-text-el;
+  @include font-settings(500, 32px, 125%, #fff);
+  margin-bottom: 50px;
+
+  @media screen and (max-width: 720px) {
+    @include font-settings(500, 20px, 24px, #fff);
+  }
+}

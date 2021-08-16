@@ -1,0 +1,9 @@
+.header__logo {
+  @include reset-text-el;
+  @include font-settings(700, 30px, 100%, "elements");
+  text-transform: uppercase;
+
+  @media screen and (max-width: 720px) {
+    @include font-settings(700, 20px, 150%, "elements");
+  }
+}

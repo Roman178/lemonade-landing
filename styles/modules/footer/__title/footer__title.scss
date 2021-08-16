@@ -1,0 +1,5 @@
+.footer__title {
+  @include reset-text-el;
+  @include font-settings(500, 23px, 143%, #fff);
+  margin-bottom: 20px;
+}

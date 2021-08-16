@@ -1,0 +1,15 @@
+.card__box_type_middle {
+  width: 237px;
+  min-height: 336px;
+  justify-content: space-between;
+
+  @media screen and (max-width: 1150px) {
+    width: 185px;
+    min-height: auto;
+    height: 343px;
+  }
+
+  @media screen and (max-width: 720px) {
+    display: none;
+  }
+}

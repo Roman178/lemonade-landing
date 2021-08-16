@@ -1,0 +1,10 @@
+.footer__circle_type_medium {
+  width: 229.55px;
+  height: 229.55px;
+  background-color: #815bf9;
+
+  @media screen and (max-width: 1150px) {
+    width: 153.04px;
+    height: 153.04px;
+  }
+}

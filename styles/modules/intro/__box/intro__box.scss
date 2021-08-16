@@ -1,0 +1,15 @@
+.intro__box {
+  @include flex-column;
+  min-height: 322px;
+  position: relative;
+  justify-content: space-between;
+
+  @media screen and (max-width: 1400px) {
+    width: 668px;
+  }
+
+  @media screen and (max-width: 720px) {
+    width: 280px;
+    min-height: auto;
+  }
+}

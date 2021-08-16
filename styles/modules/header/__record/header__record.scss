@@ -1,0 +1,26 @@
+.header__record {
+  position: absolute;
+  right: -140px;
+  top: -140px;
+  background-color: apply-color("sub");
+  width: 565px;
+  min-height: 565px;
+  border-radius: 50%;
+  background-image: url("../images/record.png");
+  @include center-bckgr-img;
+
+  @media screen and (max-width: 1400px) {
+    background-color: inherit;
+    position: static;
+    width: 128px;
+    min-height: 128px;
+    background-size: contain;
+  }
+
+  @media screen and (max-width: 720px) {
+    width: 94px;
+    min-height: 94px;
+    margin-bottom: -14px;
+    z-index: 1;
+  }
+}

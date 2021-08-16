@@ -1,0 +1,9 @@
+.footer__item {
+  @include font-settings(400, 17px, 165%, #fff);
+  letter-spacing: 0.3px;
+  margin-bottom: 3px;
+}
+
+.footer__item:last-of-type {
+  margin: 0;
+}

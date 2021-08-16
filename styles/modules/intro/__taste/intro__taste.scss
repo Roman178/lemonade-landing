@@ -1,0 +1,16 @@
+.intro__taste {
+  position: absolute;
+  right: -40px;
+  bottom: -50px;
+
+  @media screen and (max-width: 1400px) {
+    right: 20px;
+    bottom: 20px;
+  }
+
+  @media screen and (max-width: 720px) {
+    width: 100px;
+    right: 5px;
+    bottom: -40px;
+  }
+}

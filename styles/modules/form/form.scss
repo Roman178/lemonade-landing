@@ -1,0 +1,16 @@
+.form {
+  width: 693px;
+  min-height: 544px;
+  background-color: #016450;
+  padding: 24px 30px 30px;
+  box-sizing: border-box;
+
+  @media screen and (max-width: 1150px) {
+    width: 100%;
+  }
+
+  @media screen and (max-width: 720px) {
+    padding: 20px;
+    min-height: auto;
+  }
+}

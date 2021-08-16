@@ -1,0 +1,14 @@
+.samples__text-box {
+  width: 457px;
+
+  @media screen and (max-width: 1150px) {
+    width: 100%;
+    padding-left: 26px;
+    margin-bottom: 100px;
+  }
+
+  @media screen and (max-width: 720px) {
+    padding-left: 10px;
+    margin-bottom: 50px;
+  }
+}
