@@ -8,4 +8,8 @@
     min-height: auto;
     height: 343px;
   }
+
+  @media screen and (max-width: 720px) {
+    display: none;
+  }
 }

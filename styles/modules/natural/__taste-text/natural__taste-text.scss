@@ -7,4 +7,10 @@
   z-index: 1;
   top: 118px;
   left: -42px;
+
+  @media screen and (max-width: 720px) {
+    @include font-settings(600, 8px, 9px, #016450);
+    top: 232px;
+    left: 41px;
+  }
 }

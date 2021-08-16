@@ -1,4 +1,8 @@
 .footer__copyright {
   @include reset-text-el;
   @include font-settings(400, 14px, 107%, #fff);
+
+  @media screen and (max-width: 720px) {
+    margin-top: 50px;
+  }
 }

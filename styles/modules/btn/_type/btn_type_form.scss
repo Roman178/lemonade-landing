@@ -3,10 +3,19 @@
   background-color: #a27bff;
   margin-top: 179px;
   cursor: pointer;
-}
 
-.btn_type_form:hover {
-  border: 2px solid #e1fd2c;
-  box-sizing: border-box;
-  border-radius: 10px;
+  &:hover {
+    border: 2px solid #e1fd2c;
+    box-sizing: border-box;
+    border-radius: 10px;
+  }
+
+  @media screen and (max-width: 1150px) {
+    margin-top: 90px;
+  }
+
+  @media screen and (max-width: 720px) {
+    width: 100%;
+    margin-top: 60px;
+  }
 }

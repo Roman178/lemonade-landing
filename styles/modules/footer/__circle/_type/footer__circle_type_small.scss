@@ -2,4 +2,9 @@
   width: 152.43px;
   height: 152.43px;
   background-color: #6a4efb;
+
+  @media screen and (max-width: 1150px) {
+    width: 101.62px;
+    height: 101.62px;
+  }
 }

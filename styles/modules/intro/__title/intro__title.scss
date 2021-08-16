@@ -6,4 +6,9 @@
     @include font-settings(600, 30px, 38px, #fff);
     max-width: 407px;
   }
+
+  @media screen and (max-width: 720px) {
+    @include font-settings(600, 20px, 24px, #fff);
+    margin-bottom: 30px;
+  }
 }

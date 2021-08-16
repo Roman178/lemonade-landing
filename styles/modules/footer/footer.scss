@@ -5,6 +5,12 @@
   box-sizing: border-box;
 
   @media screen and (max-width: 1150px) {
-    padding: 120px 0 150px 50px;
+    padding: 120px 0 50px 50px;
+  }
+
+  @media screen and (max-width: 720px) {
+    padding: 60px 0 20px;
+    flex-direction: column;
+    align-items: center;
   }
 }

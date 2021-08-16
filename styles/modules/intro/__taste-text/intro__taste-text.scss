@@ -6,4 +6,10 @@
   transform: rotate(10.05deg);
   top: 66px;
   left: 47px;
+
+  @media screen and (max-width: 720px) {
+    @include font-settings(600, 8px, 9px, #016450);
+    top: 45px;
+    left: 33px;
+  }
 }

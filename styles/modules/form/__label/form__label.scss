@@ -1,3 +1,8 @@
 .form__label {
   @include font-settings(400, 17px, 182%, #fff);
+
+  @media screen and (max-width: 720px) {
+    @include font-settings(400, 14px, 221%, #fff);
+    letter-spacing: 0.3px;
+  }
 }

@@ -3,4 +3,8 @@
   box-sizing: border-box;
   border-bottom: 1px solid rgba(255, 255, 255, 0.5);
   cursor: pointer;
+
+  @media screen and (max-width: 720px) {
+    @include font-settings(700, 22px, 22px, #fff);
+  }
 }

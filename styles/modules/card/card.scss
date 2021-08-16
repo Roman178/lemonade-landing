@@ -11,4 +11,9 @@
     flex-direction: column;
     padding: 60px;
   }
+
+  @media screen and (max-width: 720px) {
+    padding: 20px;
+    min-height: auto;
+  }
 }

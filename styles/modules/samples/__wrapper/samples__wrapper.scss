@@ -1,17 +1,16 @@
-.natural {
+.samples__wrapper {
   @include flex-ai-center;
   justify-content: space-between;
-  min-height: 510px;
-  padding: 0 180px 0 154px;
 
   @media screen and (max-width: 1150px) {
-    padding: 0;
-    padding-top: 70px;
     flex-direction: column;
+    width: 100%;
+    padding: 60px 34px 34px;
+    background-color: #cef564;
+    box-sizing: border-box;
   }
 
   @media screen and (max-width: 720px) {
-    padding: 30px 20px 0;
-    min-height: auto;
+    padding: 20px 10px 10px;
   }
 }

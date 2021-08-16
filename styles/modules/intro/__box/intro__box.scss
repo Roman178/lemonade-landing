@@ -7,4 +7,9 @@
   @media screen and (max-width: 1400px) {
     width: 668px;
   }
+
+  @media screen and (max-width: 720px) {
+    width: 280px;
+    min-height: auto;
+  }
 }

@@ -46,7 +46,7 @@
         <section class="how-it-works">
           <h2 class="title">Как это работает?</h2>
           <div class="how-it-works__wrapper">
-            <div class="card">
+            <div id="tastes" class="card">
               <div class="card__box">
                 <h3 class="card__title">Вкусы</h3>
                 <p class="card__subtitle">
@@ -56,7 +56,7 @@
               </div>
               <img class="card__img" src="./images/tastes.jpg" alt="Tastes" />
             </div>
-            <div class="card card_type_sub">
+            <div id="composition" class="card card_type_sub">
               <div class="card__box card__box_type_big">
                 <div class="card__text-box">
                   <h3 class="card__title">Состав</h3>
@@ -95,47 +95,49 @@
             />
           </div>
         </section>
-        <section class="samples">
-          <div class="samples__text-box">
-            <h2 class="title">Сэмплы</h2>
-            <p class="samples__subtitle">
-              Хотите получить семплы каждого вкуса, чтобы понять что нравится
-              вам? заполните форму!
-            </p>
+        <section id="samples" class="samples">
+          <div class="samples__wrapper">
+            <div class="samples__text-box">
+              <h2 class="title">Сэмплы</h2>
+              <p class="samples__subtitle">
+                Хотите получить семплы каждого вкуса, чтобы понять что нравится
+                вам? заполните форму!
+              </p>
+            </div>
+            <form class="form" name="main-form">
+              <h2 class="form__title">Сэмплы</h2>
+              <div class="form__name-box">
+                <div class="form__input-box">
+                  <label class="form__label" for="first-name">Имя*</label>
+                  <input
+                    class="form__input"
+                    type="text"
+                    name="first-name"
+                    id="first-name"
+                  />
+                </div>
+                <div class="form__input-box">
+                  <label class="form__label" for="last-name">Фамилия*</label>
+                  <input
+                    class="form__input"
+                    type="text"
+                    name="last-name"
+                    id="last-name"
+                  />
+                </div>
+              </div>
+              <div class="form__input-box form__input-box_type_long">
+                <label class="form__label" for="email-input">Email*</label>
+                <input
+                  class="form__input"
+                  type="email"
+                  name="email-input"
+                  id="email-input"
+                />
+              </div>
+              <button type="submit" class="btn btn_type_form">Запросить</button>
+            </form>
           </div>
-          <form class="form" name="main-form">
-            <h2 class="form__title">Сэмплы</h2>
-            <div class="form__name-box">
-              <div class="form__input-box">
-                <label class="form__label" for="first-name">Имя*</label>
-                <input
-                  class="form__input"
-                  type="text"
-                  name="first-name"
-                  id="first-name"
-                />
-              </div>
-              <div class="form__input-box">
-                <label class="form__label" for="last-name">Фамилия*</label>
-                <input
-                  class="form__input"
-                  type="text"
-                  name="last-name"
-                  id="last-name"
-                />
-              </div>
-            </div>
-            <div class="form__input-box form__input-box_type_long">
-              <label class="form__label" for="email-input">Email*</label>
-              <input
-                class="form__input"
-                type="email"
-                name="email-input"
-                id="email-input"
-              />
-            </div>
-            <button type="submit" class="btn btn_type_form">Запросить</button>
-          </form>
         </section>
       </main>
       <footer class="footer">
@@ -151,16 +153,26 @@
             <div class="footer__box">
               <h4 class="footer__title">Меню</h4>
               <ul class="footer__list">
-                <li class="footer__item">Вкусы</li>
-                <li class="footer__item">Состав</li>
-                <li class="footer__item">Сэмплы</li>
+                <li class="footer__item">
+                  <a href="#tastes" class="footer__anchor">Вкусы</a>
+                </li>
+                <li class="footer__item">
+                  <a href="#composition" class="footer__anchor">Состав</a>
+                </li>
+                <li class="footer__item">
+                  <a href="#samples" class="footer__anchor">Сэмплы</a>
+                </li>
               </ul>
             </div>
             <div class="footer__box">
               <h4 class="footer__title">Контакты</h4>
               <ul class="footer__list">
-                <li class="footer__item">press@soda.io</li>
-                <li class="footer__item">connect@soda.io</li>
+                <li class="footer__item">
+                  <a href="#!" class="footer__anchor">press@soda.io</a>
+                </li>
+                <li class="footer__item">
+                  <a href="#!" class="footer__anchor">connect@soda.io</a>
+                </li>
               </ul>
             </div>
           </div>

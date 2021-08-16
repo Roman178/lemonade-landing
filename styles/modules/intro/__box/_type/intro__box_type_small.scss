@@ -8,4 +8,8 @@
     max-width: 668px;
     margin-top: 50px;
   }
+
+  @media screen and (max-width: 720px) {
+    flex-direction: column;
+  }
 }

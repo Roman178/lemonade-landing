@@ -1,4 +1,9 @@
 .title {
   @include font-settings(500, 60px, 100%, #1e3264);
   @include reset-text-el;
+
+  @media screen and (max-width: 720px) {
+    @include font-settings(500, 20px, 24px, #1e3264);
+    letter-spacing: 0.5px;
+  }
 }
