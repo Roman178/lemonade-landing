@@ -3,7 +3,7 @@
   @include font-settings(500, 18px, 172%, #1e3264);
   background-color: apply-color("elements");
   width: 163px;
-  height: 55px;
+  min-height: 55px;
   cursor: pointer;
 
   &:hover {
@@ -14,6 +14,6 @@
 
   @media screen and (max-width: 720px) {
     width: 152px;
-    height: 51px;
+    min-height: 51px;
   }
 }

@@ -1,11 +1,11 @@
-// @import "../vendor/normalize.css";
-// @import "../vendor/fonts/fonts.css";
+@import "../vendor/fonts/fonts.scss";
 
 @import "./modules/variables.scss";
 @import "./modules/functions.scss";
 @import "./modules/mixins.scss";
 
 @import "./modules/page/page.scss";
+@import "./modules/content/content.scss";
 @import "./modules/header/header.scss";
 @import "./modules/header/__logo/header__logo.scss";
 @import "./modules/header/__record/header__record.scss";
@@ -67,6 +67,7 @@
 @import "./modules/form/__input/form__input.scss";
 
 @import "./modules/footer/footer.scss";
+@import "./modules/footer/__wrapper/footer__wrapper.scss";
 @import "./modules/footer/__circle/footer__circle.scss";
 @import "./modules/footer/__circle/_type/footer__circle_type_medium.scss";
 @import "./modules/footer/__circle/_type/footer__circle_type_small.scss";

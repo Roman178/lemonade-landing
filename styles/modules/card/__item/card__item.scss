@@ -4,6 +4,10 @@
   border-bottom: 1px solid rgba(255, 255, 255, 0.5);
   cursor: pointer;
 
+  &:hover {
+    opacity: 0.7;
+  }
+
   @media screen and (max-width: 720px) {
     @include font-settings(700, 22px, 22px, #fff);
   }

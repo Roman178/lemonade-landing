@@ -3,6 +3,9 @@
   justify-content: space-between;
   min-height: 510px;
   padding: 0 180px 0 154px;
+  max-width: 1106px;
+  align-self: center;
+  width: 100%;
 
   @media screen and (max-width: 1150px) {
     padding: 0;
