@@ -1,6 +1,8 @@
 .samples__wrapper {
   @include flex-ai-center;
   justify-content: space-between;
+  max-width: 1240px;
+  margin: auto;
 
   @media screen and (max-width: 1150px) {
     flex-direction: column;

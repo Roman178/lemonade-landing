@@ -1,11 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./vendor/normalize.css" />
-    <link rel="stylesheet" href="./vendor/fonts/fonts.css" />
     <link rel="stylesheet" href="./styles/style.css" />
     <title>Lemonade</title>
   </head>
@@ -22,18 +21,18 @@
           <div class="intro__wrapper">
             <div class="intro__box">
               <img src="./images/bottles.jpg" alt="Bottles" />
-              <div class="intro__taste">
-                <p class="intro__taste-text">ананас</p>
+              <figure class="intro__taste">
+                <figcaption class="intro__taste-text">ананас</figcaption>
                 <img
                   class="intro__img-taste"
                   src="./images/taste-pineapple.png"
                   alt="taste-pineapple"
                 />
-              </div>
+              </figure>
             </div>
             <div class="intro__box intro__box_type_small">
               <h1 class="intro__title">Вкусные лимонады из фруктов</h1>
-              <button class="btn">Подробнее</button>
+              <button type="button" class="btn">Подробнее</button>
             </div>
           </div>
           <div class="devider">
@@ -65,7 +64,9 @@
                     компонентов.
                   </p>
                 </div>
-                <button class="btn btn_type_disappearing">Попробовать</button>
+                <button type="button" class="btn btn_type_disappearing">
+                  Попробовать
+                </button>
               </div>
               <div class="card__wrapper">
                 <div class="card__box card__box_type_middle">
@@ -80,7 +81,9 @@
                   <li class="card__item">Витамины</li>
                 </ul>
               </div>
-              <button class="btn btn_type_appearing">Попробовать</button>
+              <button type="button" class="btn btn_type_appearing">
+                Попробовать
+              </button>
             </div>
           </div>
         </section>
@@ -135,50 +138,58 @@
                   id="email-input"
                 />
               </div>
-              <button type="submit" class="btn btn_type_form">Запросить</button>
+              <button type="button" type="submit" class="btn btn_type_form">
+                Запросить
+              </button>
             </form>
           </div>
         </section>
       </main>
       <footer class="footer">
-        <div class="footer__circle">
-          <div class="footer__circle footer__circle_type_medium">
-            <div class="footer__circle footer__circle_type_small">
-              <p class="footer__logo">soda</p>
+        <div class="footer__wrapper">
+          <div class="footer__circle">
+            <div class="footer__circle footer__circle_type_medium">
+              <div class="footer__circle footer__circle_type_small">
+                <p class="footer__logo">soda</p>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="footer__info">
-          <div class="footer__links">
-            <div class="footer__box">
-              <h4 class="footer__title">Меню</h4>
-              <ul class="footer__list">
-                <li class="footer__item">
-                  <a href="#tastes" class="footer__anchor">Вкусы</a>
-                </li>
-                <li class="footer__item">
-                  <a href="#composition" class="footer__anchor">Состав</a>
-                </li>
-                <li class="footer__item">
-                  <a href="#samples" class="footer__anchor">Сэмплы</a>
-                </li>
-              </ul>
+          <div class="footer__info">
+            <div class="footer__links">
+              <div class="footer__box">
+                <h4 class="footer__title">Меню</h4>
+                <nav>
+                  <ul class="footer__list">
+                    <li class="footer__item">
+                      <a href="#tastes" class="footer__anchor">Вкусы</a>
+                    </li>
+                    <li class="footer__item">
+                      <a href="#composition" class="footer__anchor">Состав</a>
+                    </li>
+                    <li class="footer__item">
+                      <a href="#samples" class="footer__anchor">Сэмплы</a>
+                    </li>
+                  </ul>
+                </nav>
+              </div>
+              <div class="footer__box">
+                <h4 class="footer__title">Контакты</h4>
+                <nav>
+                  <ul class="footer__list">
+                    <li class="footer__item">
+                      <a href="#!" class="footer__anchor">press@soda.io</a>
+                    </li>
+                    <li class="footer__item">
+                      <a href="#!" class="footer__anchor">connect@soda.io</a>
+                    </li>
+                  </ul>
+                </nav>
+              </div>
             </div>
-            <div class="footer__box">
-              <h4 class="footer__title">Контакты</h4>
-              <ul class="footer__list">
-                <li class="footer__item">
-                  <a href="#!" class="footer__anchor">press@soda.io</a>
-                </li>
-                <li class="footer__item">
-                  <a href="#!" class="footer__anchor">connect@soda.io</a>
-                </li>
-              </ul>
-            </div>
+            <p class="footer__copyright">
+              © 2021 Soda, Inc. All Rights Reserved.
+            </p>
           </div>
-          <p class="footer__copyright">
-            © 2021 Soda, Inc. All Rights Reserved.
-          </p>
         </div>
       </footer>
     </div>

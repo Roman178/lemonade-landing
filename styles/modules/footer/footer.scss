@@ -1,16 +1,4 @@
 .footer {
-  display: flex;
-  padding: 100px 0 100px 150px;
+  @include flex-jc-center;
   background-color: #7a54f9;
-  box-sizing: border-box;
-
-  @media screen and (max-width: 1150px) {
-    padding: 120px 0 50px 50px;
-  }
-
-  @media screen and (max-width: 720px) {
-    padding: 60px 0 20px;
-    flex-direction: column;
-    align-items: center;
-  }
 }
